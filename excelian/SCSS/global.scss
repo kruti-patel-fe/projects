@@ -1,0 +1,46 @@
+/* Html Body */
+html, body { height: 100%; }
+
+/* Border box */
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.5;
+  color: $black;
+  background: $off-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba($black, 0.004);
+}
+
+/* Hyper link properties */
+a {
+  color: $bright-chartreuse;
+  line-height: inherit;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a img {
+  border: 0;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+

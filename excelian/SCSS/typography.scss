@@ -1,0 +1,31 @@
+/* font family classes */
+.font-family-anton{
+  font-family: 'Anton', sans-serif;
+}
+.font-family-gotham-book{
+  font-family: $font-gotham-book;
+}
+.font-family-gotham-medium{
+  font-family: $font-gotham-medium;
+}
+/* font size classes */
+.font-size-10px{
+  @include rem(font-size, 10px);
+  @include rem(line-height, 18px);
+}
+.font-size-11px{
+  @include rem(font-size, 11px);
+  @include rem(line-height, 18px);
+}
+.font-size-12px{
+  @include rem(font-size, 12px);
+  @include rem(line-height, 20px);
+}
+.font-size-14px{
+  @include rem(font-size, 14px);
+  @include rem(line-height, 24px);
+}
+.font-banner {
+  @include rem(font-size, 36px);
+  @include rem(line-height, 36px);
+}
