@@ -95,6 +95,10 @@ img {
   line-height: 36px;
   line-height: 2.25rem; }
 
+.font-icon-big {
+  font-size: 40px;
+  font-size: 2.5rem; }
+
 /* Height and Width in percentage */
 .height-100-per {
   height: 100%; }
@@ -123,6 +127,15 @@ img {
 
 .no-mgn-bottom {
   margin-bottom: 0; }
+
+.mgn-top-5 {
+  margin-top: 5px; }
+
+.mgn-top-10 {
+  margin-top: 10px; }
+
+.mgn-top-20 {
+  margin-top: 20px; }
 
 .mgn-top-40 {
   margin-top: 40px; }
@@ -235,6 +248,7 @@ img {
   .no-text-decoration:hover, .no-text-decoration:focus {
     text-decoration: none; }
 
+/* Clearing floats */
 .clear {
   clear: both; }
 
@@ -273,6 +287,12 @@ img {
 .color-light-grey {
   color: #8a9083; }
 
+.color-blue {
+  color: #0074cc; }
+
+.color-teal {
+  color: teal; }
+
 .brdr-tb-grey {
   border-top: 2px solid #8a9083;
   border-bottom: 2px solid #8a9083; }
@@ -284,13 +304,14 @@ img {
   background-position: center center;
   background-attachment: fixed; }
 
+.radius {
+  border-radius: 6px; }
+
 .radius-bottom {
   border-radius: 0 0 6px 6px; }
 
-.bank-logo {
-  height: 100px;
-  width: 100px;
-  right: 0;
-  top: 0; }
+.search-icon {
+  top: 10px;
+  right: 10px; }
 
 /*# sourceMappingURL=global.css.map */

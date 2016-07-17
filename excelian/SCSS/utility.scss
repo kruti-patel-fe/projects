@@ -28,6 +28,15 @@
 .no-mgn-bottom {
   margin-bottom: 0;
 }
+.mgn-top-5 {
+  margin-top: 5px;
+}
+.mgn-top-10 {
+  margin-top: 10px;
+}
+.mgn-top-20 {
+  margin-top: 20px;
+}
 .mgn-top-40{
   margin-top: 40px;
 }
@@ -154,6 +163,7 @@
   }
 }
 
+/* Clearing floats */
 .clear {
   clear: both;
 }

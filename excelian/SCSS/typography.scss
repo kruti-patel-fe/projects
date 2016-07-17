@@ -29,3 +29,6 @@
   @include rem(font-size, 36px);
   @include rem(line-height, 36px);
 }
+.font-icon-big {
+  @include rem(font-size, 40px);
+}
