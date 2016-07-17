@@ -1,0 +1,320 @@
+/* Color variables */
+/* Font family ariable classes */
+/* Retina Images */
+/* Box Sizing */
+/* Border Radius */
+/* Single side border-radius */
+/* Opacity */
+/* Text Overflow */
+/* Absolute Positioned */
+/* Relative Positioned */
+/* Box Shadow */
+/* Background Gradient */
+/* Diagonal Background Gradient */
+/* Html Body */
+html, body {
+  height: 100%; }
+
+/* Border box */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000;
+  background: #f0f0f0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+/* Hyper link properties */
+a {
+  color: #adee33;
+  line-height: inherit;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: underline; }
+
+a img {
+  border: 0; }
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle; }
+
+/* font family classes */
+.font-family-anton {
+  font-family: 'Anton', sans-serif; }
+
+.font-family-gotham-book {
+  font-family: "gotham_book"; }
+
+.font-family-gotham-medium {
+  font-family: "gotham_medium"; }
+
+/* font size classes */
+.font-size-10px {
+  font-size: 10px;
+  font-size: 0.625rem;
+  line-height: 18px;
+  line-height: 1.125rem; }
+
+.font-size-11px {
+  font-size: 11px;
+  font-size: 0.6875rem;
+  line-height: 18px;
+  line-height: 1.125rem; }
+
+.font-size-12px {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 20px;
+  line-height: 1.25rem; }
+
+.font-size-14px {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 24px;
+  line-height: 1.5rem; }
+
+.font-banner {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 36px;
+  line-height: 2.25rem; }
+
+/* Height and Width in percentage */
+.height-100-per {
+  height: 100%; }
+
+.width-100-per {
+  width: 100%; }
+
+.max-width-1000px {
+  max-width: 1000px; }
+
+/* Padding Margin Properties */
+.pad-30 {
+  padding: 30px; }
+
+.pad-20 {
+  padding: 20px; }
+
+.pad-tb-40 {
+  padding: 40px 0; }
+
+.mgn-left-10 {
+  margin-left: 10px; }
+
+.no-mgn-bottom {
+  margin-bottom: 0; }
+
+.mgn-top-40 {
+  margin-top: 40px; }
+
+.no-mgn-top {
+  margin-top: 0; }
+
+.row.nopad-col .column {
+  padding: 0; }
+
+/* Position */
+.position-relative {
+  position: relative; }
+
+.position-absolute {
+  position: absolute; }
+
+.position-static {
+  position: static; }
+
+.position-fixed {
+  position: fixed; }
+
+/* Display Styles */
+.display-block {
+  display: block; }
+
+.display-inline {
+  display: inline; }
+
+.display-inline-block {
+  display: inline-block; }
+
+/* Overflow */
+.overflow-auto {
+  overflow: auto; }
+
+.overflow-visible {
+  overflow: visible; }
+
+.overflow-yscroll {
+  overflow-y: visible; }
+
+.overflow-scroll {
+  overflow: scroll; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+/* Cursor Styles */
+.cursor-pointer {
+  cursor: pointer; }
+
+.cursor-degault {
+  cursor: default; }
+
+/* Vertical align */
+.vertical-top {
+  vertical-align: top; }
+
+.vertical-middle {
+  vertical-align: middle; }
+
+.vertical-super {
+  vertical-align: super; }
+
+/* Text Transforms */
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+/* Text truncate */
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/* Z-index Classes */
+.z-index-1 {
+  z-index: 1; }
+
+.z-index-11 {
+  z-index: 11; }
+
+.z-index-100 {
+  z-index: 100; }
+
+/* No border */
+.no-border {
+  border: none; }
+
+/* No bullet point for list item */
+.no-bullet {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none; }
+
+/* Text decoration underline */
+.text-underline {
+  text-decoration: underline; }
+
+/* Text decoration none */
+.no-text-decoration {
+  text-decoration: none; }
+  .no-text-decoration:hover, .no-text-decoration:focus {
+    text-decoration: none; }
+
+@font-face {
+  font-family: "gotham_book";
+  src: url("../font/Gotham-Book/Gotham-Book.eot");
+  src: url("../font/Gotham-Book/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../font/Gotham-Book/Gotham-Book.woff") format("woff"), url("../font/Gotham-Book/Gotham-Book.ttf") format("truetype"), url("../font/Gotham-Book/Gotham-Book.svg#gotham_book") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "gotham_medium";
+  src: url("../font/Gotham-Medium/ufonts.com_gotham_medium.eot");
+  src: url("../font/Gotham-Medium/ufonts.com_gotham_medium.eot?#iefix") format("embedded-opentype"), url("../font/Gotham-Medium/ufonts.com_gotham-medium.woff") format("woff"), url("../font/Gotham-Medium/ufonts.com_gotham-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.bg-chalk {
+  background-color: #151515; }
+
+.bg-black {
+  background-color: #000; }
+
+.brdr-sld-black {
+  border-top: 1px solid #000; }
+
+.bg-chalk-template {
+  background: url("../images/bg-chalk-template.jpg") no-repeat; }
+
+.color-bright-chartreuse {
+  color: #adee33; }
+
+.color-white {
+  color: #FFF; }
+
+.color-light-grey {
+  color: #8a9083; }
+
+.orbit-bullets.banjo-slider {
+  bottom: 0;
+  left: 50%; }
+  .orbit-bullets.banjo-slider button {
+    width: 8px;
+    height: 8px;
+    margin: 0 10px 0 0;
+    background-color: #f0f0f0; }
+    .orbit-bullets.banjo-slider button.is-active {
+      background-color: #adee33; }
+
+.social-icon-size {
+  height: 40px;
+  width: 40px;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
+
+.brdr-tb-grey {
+  border-top: 2px solid #8a9083;
+  border-bottom: 2px solid #8a9083; }
+
+@media screen and (min-width: 64em) {
+  .overlay-div:after {
+    content: 'COMMENTS GO HERE';
+    font-family: "gotham_medium";
+    font-size: 11px;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    padding-top: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(173, 238, 51, 0.7);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; }
+
+  .overlay-div:hover:after {
+    opacity: 1; }
+
+  .social-icon-size:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1); } }
+@media screen and (max-width: 39.9375em) {
+  .social-icon-size {
+    height: 25px;
+    width: 25px; } }
+
+/*# sourceMappingURL=global.css.map */
