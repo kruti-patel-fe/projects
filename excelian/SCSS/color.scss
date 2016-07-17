@@ -4,11 +4,14 @@
 .bg-black {
   background-color: $black;
 }
+.bg-teal {
+  background-color: $teal;
+  &:hover {
+    background-color: $deep-teal;
+  }
+}
 .brdr-sld-black {
   border-top: 1px solid $black;
-}
-.bg-chalk-template {
-  background: url("../images/bg-chalk-template.jpg") no-repeat;
 }
 .color-bright-chartreuse {
   color: $bright-chartreuse;

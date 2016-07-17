@@ -10,11 +10,14 @@
 }
 
 /* Padding Margin Properties */
-.pad-30 {
-  padding: 30px;
+.pad-10 {
+  padding: 10px;
 }
 .pad-20 {
   padding: 20px;
+}
+.pad-30 {
+  padding: 30px;
 }
 .pad-tb-40 {
   padding: 40px 0;
@@ -149,4 +152,8 @@
   &:hover, &:focus {
     text-decoration: none;
   }
+}
+
+.clear {
+  clear: both;
 }

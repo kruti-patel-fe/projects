@@ -1,0 +1,28 @@
+.brdr-tb-grey{
+  border-top: 2px solid $light-grey;
+  border-bottom: 2px solid $light-grey;
+}
+.body-background {
+  background-image: url("../images/blue-bg.jpg");
+  background-size: cover;
+  background-color: #41A2BB;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.radius-bottom {
+  border-radius: 0 0 6px 6px;
+}
+.bank-logo{
+  height: 100px;
+  width: 100px;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width: 64em) {
+
+}
+
+@media screen and (max-width: 39.9375em) {
+
+}
+
